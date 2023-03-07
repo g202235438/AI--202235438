@@ -11,8 +11,8 @@ df_data = pd.DataFrame(breast_cancer_data.data)
 
 df_labels = pd.DataFrame(breast_cancer_data.target)
 #(숙제 : data와 labels 열개만 출력해서 실제 값을 확인하세요)
-print(df_data)
-print(df_labels[0][:10])
+print(df_data[:10])
+print(df_labels[:10])
 
 print(breast_cancer_data.target_names)
 #(X_train, y_train, X_test, y_test 로 훈련과 테스트 데이터를 8:2로 나누기)
